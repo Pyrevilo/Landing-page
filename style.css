@@ -1,0 +1,94 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    min-width: 800px;
+    font-family: Verdana;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo {
+    flex: 1;
+    min-width: 250px;
+    max-width: 450px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-right: 50px;
+    display: flex;
+}
+
+li {
+    padding-left: 15px;
+    flex-shrink: 0;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 50px;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.heroleft {
+    max-width: 480px;
+    min-width: 400px;
+    height: 200px;
+}
+
+.htitle {
+    font-size: 48px;
+    font-weight: bolder;
+    width: 400px;
+}
+
+.descrip {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px;
+    padding: 5px 15px;
+}
+
+.image {
+    width: 390px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: grey;
+    /* aligns everything into the middle somehow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+*{
+    border: red sold 1px;
+}
